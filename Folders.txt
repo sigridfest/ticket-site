@@ -1,5 +1,14 @@
-root: gruppe_5_prosjekt
+Let’s explain these one by one:
 
-root/backend: Project (django-type)
+node_modules/ contains all of the external JavaScript libraries used by the application. You will rarely need to open it.
 
-root/backend/luka: Django application
+The public/ directory contains some base HTML, JSON, and image files. These are the roots of your project. You’ll have an opportunity to explore them more in Step 4.
+
+The src/ directory contains the React JavaScript code for your project. Most of the work you do will be in that directory. You’ll explore this directory in detail in Step 5.
+
+The .gitignore file contains some default directories and files that git—your source control—will ignore, such as the node_modules directory. The ignored items tend to be larger directories or log files that you would not need in source control. It also will include some directories that you’ll create with some of the React scripts.
+
+README.md is a markdown file that contains a lot of useful information about Create React App, such as a summary of commands and links to advanced configuration. For now, it’s best to leave the README.md file as you see it. As your project progresses, you will replace the default information with more detailed information about your project.
+
+
+src/components contains components for project. Modal.js nests the Modal component that is derived from the reactstrap library.
