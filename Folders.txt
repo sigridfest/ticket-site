@@ -1,0 +1,5 @@
+root: gruppe_5_prosjekt
+
+root/backend: Project (django-type)
+
+root/backend/luka: Django application

@@ -1,0 +1,10 @@
+#mainDiv {
+  max-height: 85vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#postCol > div {
+  margin-bottom: 15px;
+}

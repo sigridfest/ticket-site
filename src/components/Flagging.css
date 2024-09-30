@@ -1,0 +1,11 @@
+#card {
+  min-width: 100%;
+  padding: 0;
+  box-shadow: 2px 2px rgba(94, 94, 94, 0.2);
+}
+
+#flagCategory {
+  font-size: 38px;
+  color: white;
+  margin: -12px 0 -12px 0;
+}

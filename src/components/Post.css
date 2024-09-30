@@ -1,0 +1,47 @@
+#card {
+  min-width: 100%;
+  padding: 0;
+}
+
+#postTitle {
+  font-size: 38px;
+  color: white;
+  margin: -12px 0 -12px 0;
+}
+#username {
+  color: black;
+}
+
+#postSubtitle {
+  color: white;
+  margin-top: 8px;
+  text-align: center;
+}
+
+#cardHeader {
+  background-color: #e3735e;
+}
+
+#postBody {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#postBody * {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#postFooter {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#postFooter * {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-link {
+  color: #e3735e;
+}

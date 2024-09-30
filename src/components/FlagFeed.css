@@ -1,0 +1,17 @@
+#mainDiv {
+  max-height: 85vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+#flagCol > div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container {
+  display: flex;
+}
+.card {
+  margin-right: 0;
+}

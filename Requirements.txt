@@ -1,0 +1,54 @@
+Requirements:
+
+Uttrykk med '$' betyr 'skriv i terminalen'
+
+1. Sørg for at du har lastet ned nyeste versjon av python (3.10.2 pdd.) og har pip
+
+Installer pipenv (pip virtual environment):
+
+	1. Cd inn i /projeskt-rot-mappen
+	2. $ pip install pipenv
+		Alternativ: $ pip3 install piping
+		Alternativ (homebrew): $ brew install pipenv
+
+
+
+Aktiver pipenv:
+	1. cd /prosjekt-rot-mappen
+	2. $ pipenv shell
+			(Burde stå (gruppe_5_prosjekt) foran terminaluttrykket for bekrefte pipenv er aktivert)
+
+Velg interpreter i vscode:
+	1. I vscode: ctrl+shift+p
+	2. Søk på python: select interpreter
+	3. Velg gruppe_5_prosjekt-QtEZ5bxE elns.
+
+
+Installer Django med pipenv (imens pipenv er aktivert):
+	1. cd inn i /backend
+	2. $ pipenv install django
+
+Installer API (imens pipenv er aktivert):
+	1. cd inn i /backend
+	2. $ pipenv install djangorestframework django-cors-headers
+
+Installer filhåndtering for database:
+	1. cd inn i /backend
+	2. $ pip install pillow@9.0.1
+
+Installer node.js før dette: https://nodejs.org/
+
+Installer bootstrap og reactstrap (for brukerinterface-verktøy):
+	1. cd inn i /frontend
+	2. $ npm install bootstrap@4.6.0 reactstrap@8.9.0 --legacy-peer-deps
+	3. Installer axios: $ npm install axios@0.26.0
+
+
+
+Installer react-router-dom 
+	1. cd inn i /frontend
+	2. $ npm install react-router-dom@5.3.0
+
+Installer react testing
+	1. cd inn i /frontend
+    2. $ npm install @testing-library/react react-test-render

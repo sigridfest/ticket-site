@@ -1,0 +1,31 @@
+Naviger server (backend):
+
+Først:
+1. Start server: python manage.py runserver
+
+
+
+1. Åpne http://127.0.0.1:8000/
+	
+	Man ser man ikke havner noe sted akk nå, men man kan velge url med admin/ og api/
+
+
+Finne fram innleggene til Luka:
+	1. Skriv ..8000/api/luka
+
+
+Legge til et innlegg:
+	1. Bruk interface og klikk 'Post'
+
+
+Finne fram et innlegg med id:
+	1./api/luka/{id}
+
+
+Bruke backend-siden som admin:
+	..8000/admin
+	
+	Brukernavn: admin
+	Passord: gruppe5
+		
+

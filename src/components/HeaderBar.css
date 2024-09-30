@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+#headerBar {
+  background-color: #e3735e;
+  max-height: 15vh;
+}
+
+#headerBarBrand {
+  font-family: Satisfy, cursive;
+  font-size: 50px;
+  margin-top: -18px;
+  margin-bottom: -18px;
+  margin-left: 24px;
+  color: white;
+}
+
+#headerBarBrand:hover {
+  text-decoration: none;
+  color: #eaeaff;
+}
+
+.headerItem {
+  margin-top: 20px;
+}
+
+.headerLink {
+  margin-left: 24px;
+  font-size: 24px;
+  color: white;
+}
+
+.headerLink:hover {
+  text-decoration: none;
+  color: #eaeaff;
+}
+
+#adminPage {
+  margin-left: 30px;
+}
+
+#profile_icon:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
